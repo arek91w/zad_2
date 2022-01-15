@@ -1,0 +1,30 @@
+Projekt 1
+1. Napisz program, uczący się gry “papier, kamień, nożyce”. Jako algorytm uczący zastosuj łańcuch Markowa z macierzą przejść pomiędzy trzema stanami (Papier, Kamień, Nożyce). Nauka gry polega na korekcie macierzy przejść (prawdopodobieństwa warunkowe zmiany stanu),
+2. Wartość wypłaty: 1 w przypadku wygranej, −1 w przypadku przegranej i 0 w przypadku remisu,
+3. Przeprowadź ciąg kilkudziesięciu gier “kamień, papier, nożyce”. Sporząź wykres jak zmienia się stan kasy w każdym kroku gry.
+
+
+Projekt 3
+Wczytaj dane z pliku daneXX.txt. Zaproponuj i zrealizuj podział tych danych na dane treningowe i dane testowe,
+Zaproponuj optymalną sieć neuronową aproksymującą wczytane dane. Użyj nieliniowej funkcji aktywacji w warstwie ukrytej (np. tanh lub sigmoidalna). Stosując propagację wsteczną błędu wytrenuj sieć metodą wsadową.
+Oceń działanie sieci pod kątem dopasowania (zbyt małe, optymalne, zbyt duże dopasowanie).
+Zmień sposób podawania sieci z wsadowej no on line. Wytrenuj sieć. Oceń działanie sieci.
+Zaproponuj sieć z funkcją aktywacji RELU. Stosując propagację wsteczną błędu wytrenuj sieć metodą wsadową.
+
+Gdzie XX jest numerem zestawu. W każdej linii pliku pierwsza liczba określa wejście a druga wartość wyjścia.
+
+Proszę nie używać dostępnych bibliotek sieci neuronowych. Do implementacji sieci proszę użyć macierzy stosując bibliotekę numpy.
+
+
+Projekt 2
+Wczytaj dane z pliku daneXX.txt. Zaproponuj i zrealizuj podział tych danych na dane treningowe i dane testowe,
+Zaproponuj liniowy model parametryczny Model 1. Określ parametry modelu stosując metodę najmniejszych kwadratów dla danych treningowych,
+Zweryfikuj poprawność Modelu 1,
+Zaproponuj bardziej złożony model parametryczny Model 2. Określ parametry modelu stosując metodę najmniejszych kwadratów dla danych treningowych,
+Zweryfikuj poprawność Modelu 2,
+Porównaj oba modele.
+
+gdzie XX jest numerem zestawu. W każdej linii pliku pierwsza liczba określa
+wejście a druga wartość wyjścia
+
+Zbiór danych znajduje się w pliku Dane_Drojekt_4.zip proszę przetestowąć programy na wszystkich plikach danych.
